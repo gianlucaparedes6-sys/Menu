@@ -1,14 +1,80 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <a href="http://www.google.com">Ir a Google</a>
-        <br>
-        Primer juego: <a href="https://juego-cazando-cyon.vercel.app/">Ir a juego cazando</a>
-        <br>
-         Segundo juego: <a href="https://juego-limones-12lz-qhc6qmqvt-gianlucaparedes6-6459s-projects.vercel.app/">Ir a juego limones</a>
-        <br>
-        Autor: Gianluca Paredes
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Menú de Juegos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
 
+            /* Imagen de fondo */
+            background-image: url("imag1.png");
+            background-size: cover;       /* Hace que ocupe toda la pantalla */
+            background-position: center;  /* Centra la imagen */
+            background-repeat: no-repeat; /* Evita que se repita */
+        }
 
-        </body>
+        .container {
+            background: rgba(255, 255, 255, 0.85); /* Fondo blanco semi-transparente */
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 500px;
+            margin: 100px auto;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        a {
+            display: block;
+            margin: 10px 0;
+            text-decoration: none;
+            color: white;
+            background-color: #007BFF;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background-color: #0056b3;
+        }
+
+        .info {
+            margin-top: 15px;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Menú de Juegos</h1>
+
+        <p>En este menú se encuentran los links para dos diferentes juegos.</p>
+
+        <a href="https://www.google.com" target="_blank">Ir a Google</a>
+
+        <a href="https://juego-cazando-cyon.vercel.app/" target="_blank">
+            Primer juego: Cazando
+        </a>
+
+        <a href="https://juego-limones-12lz-qhc6qmqvt-gianlucaparedes6-6459s-projects.vercel.app/" target="_blank">
+            Segundo juego: Limones
+        </a>
+
+        <img src="imag1.png" alt="Icono de juego" width="100">
+
+        <div class="info">
+            <p><strong>Autor:</strong> Gianluca Paredes</p>
+            <p><strong>Paralelo:</strong> B</p>
+        </div>
+    </div>
+
+</body>
 </html>
